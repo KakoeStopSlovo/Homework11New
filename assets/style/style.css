@@ -1,0 +1,55 @@
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+#options > p {
+    margin: 0px;
+}
+
+header > div:first-child {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+}
+
+header > div:first-child > h1 {
+    margin: 0px;
+}
+
+#options {
+    display: grid;
+    grid-template-columns: repeat(5, max-content);
+
+    gap: 15px;
+}
+
+#selection { 
+    display: grid;
+    grid-template-columns: repeat(7, max-content);
+
+    gap: 15px;
+}
+
+#selection > p {
+    margin: 0px;
+}
+
+.image {
+
+    width: 1296px;
+    height: 320px;
+    overflow: hidden;
+}
+
+img {
+    position: relative;
+    top: -350px;
+    width: max-content;
+}
