@@ -30,26 +30,61 @@ header > div:first-child > h1 {
     gap: 15px;
 }
 
+#options > p+p{
+    color: rgb(107, 107, 107);
+}
+
 #selection { 
+    position: relative;
+    background-position: 0px -250px;
+    height: 500px;
+    background-size: cover;
+    background-image: url(../images/emotions-3490223_1280.jpg);
+}
+
+#inside {
     display: grid;
     grid-template-columns: repeat(7, max-content);
 
     gap: 15px;
 }
 
-#selection > p {
+#inside > p {
     margin: 0px;
 }
 
-.image {
+.another {
+    height: 350px;
 
-    width: 1296px;
-    height: 320px;
-    overflow: hidden;
+    display: grid;
+    gap: 48px;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-img {
+.shoes {
     position: relative;
-    top: -350px;
-    width: max-content;
+    background-position: 0px -75px;
+    background-size: cover;
+    background-image: url(../images/paul-gaudriault-a-QH9MAAVNI-unsplash.jpg);
+}
+
+.watches {
+    position: relative;
+    background-position: -50px 0px;
+    background-size: cover;
+    background-image: url(../images/hunters-race-Vk3QiwyrAUA-unsplash.jpg);
+}
+
+.handbags {
+    position: relative;
+    background-position: -50px;
+    background-size: cover;
+    background-image: url(../images/content-pixie-ZB4eQcNqVUs-unsplash.jpg);
+}
+
+.item-card {
+    display: grid;
+    gap: 15px;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
